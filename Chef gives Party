@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int X,Y,Z,A;
+        cin>>X>>Y>>Z;
+        A=X*Y;
+      if(Z>A){
+          cout<<"YES"<<endl;
+      } 
+      else if(Z==A){
+          cout<<"YES"<<endl;
+          
+      }
+      else if(Z<A){
+          cout<<"NO"<<endl;
+      }
+    }
+
+	return 0;
+}
