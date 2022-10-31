@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    
+    while(T--){
+        int K,X,Z;
+        cin>>K>>X;
+        Z=((7*K)-X);
+        cout<<Z<<endl;
+    }
+
+	return 0;
+}
