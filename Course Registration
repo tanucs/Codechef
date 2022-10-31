@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int N,M,K,Z;
+        cin>>N>>M>>K;
+        Z=N+K;
+        if(Z<M){
+            cout<<"YES"<<endl;
+        }
+        else if(Z>M){
+            cout<<"NO"<<endl;
+        }
+        else if(Z==M){
+            cout<<"YES"<<endl;
+        }
+    }
+
+	return 0;
+}
