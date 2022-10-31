@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int X,a;
+        cin>>X;
+        a=X*10;
+        if(X>299){
+            cout<<a<<endl;
+        }
+        else if(X<=299){
+            cout<<(300*10)<<endl;
+        }
+    }
+
+	return 0;
+}
