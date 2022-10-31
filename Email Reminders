@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int U,N,A;
+    cin>>U>>N;
+    A=U-N;
+    cout<<A<<endl;
+
+	return 0;
+}
