@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int N,M,Z;
+        cin>>N>>M;
+        Z=((N*2)+(M*4));
+        cout<<Z<<endl;
+    }
+
+	return 0;
+}
