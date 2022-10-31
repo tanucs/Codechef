@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int X,A;
+        cin>>X;
+        A=100-X;
+        cout<<A<<endl;
+    }
+
+	return 0;
+}
