@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int R1,R2,R3,R4,A;
+        cin>>R1>>R2>>R3>>R4;
+        A=R1+R2+R3+R4;
+        if(A==0){
+            cout<<"IN"<<endl;
+        }
+        else{
+            cout<<"OUT"<<endl;
+        }
+    }
+
+	return 0;
+}
