@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int N,M,X,Z,Y;
+        cin>>N>>M>>X;
+        Z=((2*N)+(2*M));
+        Y=Z*X;
+        cout<<Y<<endl;
+    }
+
+	return 0;
+}
