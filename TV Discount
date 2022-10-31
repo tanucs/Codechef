@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int X,Y,A,B,a,b;
+        cin>>X>>Y>>A>>B;
+        a=X-A;
+        b=Y-B;
+        if(a<b){
+            cout<<"First"<<endl;
+        }
+        else if(a>b){
+            cout<<"Second"<<endl;
+        }
+        else if(a==b){
+            cout<<"Any"<<endl;
+        }
+    }
+
+	return 0;
+}
