@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    
+    while(T--){
+        int X,Y,D,E;
+        cin>>X>>Y;
+        D=3*X;
+        E=2*Y;
+        if(D<E){
+            cout<<D<<endl;
+        }
+        else if(D>E){
+            cout<<E<<endl;
+        }
+        else if(D==E){
+            cout<<E<<endl;
+        }
+    }
+
+	return 0;
+}
