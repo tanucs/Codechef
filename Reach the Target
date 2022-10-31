@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    
+    while(T--){
+    int X;
+    int Y;
+    int Z;
+    cin>>X>>Y;
+    Z=X-Y;
+    cout<<Z<<endl;
+    }
+    return 0;
+}
+    
