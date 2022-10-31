@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int X,P,Q,A,B;
+        cin>>X>>P>>Q;
+        A=((P-Q)*X);
+        
+        cout<<A<<endl;
+    }
+
+	return 0;
+}
