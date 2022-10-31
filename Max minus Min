@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int A,B,C,Z;
+        cin>>A>>B>>C;
+        Z=C-A;
+        cout<<Z<<endl;
+    }
+
+	return 0;
+}
