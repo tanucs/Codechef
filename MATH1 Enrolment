@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int X,Y,Z,A;
+        cin>>X>>Y;
+        Z=Y-X;
+        A=X-Y;
+        if(X<Y){
+        cout<<Z<<endl;
+        }
+        else if(X>Y){
+            cout<<0<<endl;
+        }
+        else if(X==Y){
+            cout<<Z<<endl;
+        }
+    }
+
+	return 0;
+}
