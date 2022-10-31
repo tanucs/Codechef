@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	
+	cin>>t;
+	while(t--){
+	    int X,Y,age;
+	    cin>>X>>Y>>age;
+	    
+	  if(age>=X && age<Y)
+	  {
+	      cout<<"YES"<<endl;
+	      
+	  }
+	  else
+	  {
+	      cout<<"NO"<<endl;
+	      
+	  }
+	    
+	}
+	
+	
+	return 0;
+}
