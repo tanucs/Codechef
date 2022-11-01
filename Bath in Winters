@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int X,Y,Z,A;
+        cin>>X>>Y;
+        Z=Y*2;
+        A=X/Z;
+        cout<<A<<endl;
+    }
+
+	return 0;
+}
