@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int A,B,C,D,X,Y;
+        cin>>A>>B>>C>>D;
+        X=A+C;
+        Y=B+D;
+        if(X>180 || Y>180){
+            cout<<"NO"<<endl;
+        }
+        else {
+            cout<<"YES"<<endl;
+        }
+        
+    }
+
+	return 0;
+}
