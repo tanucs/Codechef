@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+        int X,Y,A;
+        cin>>X>>Y;
+        A=(X-(Y/2));
+        cout<<A<<endl;
+    
+
+	return 0;
+}
