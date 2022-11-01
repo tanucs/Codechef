@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int N,X,P,A,B,C;
+        cin>>N>>X>>P;
+      A=N-X;
+      B=X*3;
+      C=B-A;
+      if(C>=P){
+          cout<<"PASS"<<endl;
+      }
+      else {
+          cout<<"FAIL"<<endl;
+      }
+      
+}
+	return 0;
+}
