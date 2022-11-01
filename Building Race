@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        float A,B,X,Y,Z,C;
+        
+        cin>>A>>B>>X>>Y;
+        Z=A/X;
+        C=B/Y;
+        if (Z<C){
+            cout<<"Chef"<<endl;
+        }
+        else if (Z==C){
+            cout<<"Both"<<endl;
+        }
+        else if (Z>C){
+            cout<<"Chefina"<<endl;
+        }
+    }
+
+	return 0;
+}
