@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int N,A,B;
+        cin>>N;
+        A=50*N;
+        int C,D;
+        C=(A*20)/100;
+        D=(A*30)/100;
+        B=A-(C+C+D);
+        cout<<B<<endl;
+    }
+
+	return 0;
+}
